@@ -7,6 +7,7 @@ if [ -d "$HOME/.termux" ]; then
  mv $HOME/.termux $HOME/.termux.bak
 fi
 mv oh-my-termux/.termux $HOME/.termux
+rm -rf oh-my-termux
 git clone git://github.com/robbyrussell/oh-my-zsh.git $HOME/.oh-my-zsh
 cp $HOME/.oh-my-zsh/templates/zshrc.zsh-template $HOME/.zshrc
 chsh -s zsh
