@@ -6,13 +6,7 @@ Setup Termux with:
  - Ubuntu Mono with powerline patch
  - oh-my-zsh
 
-# Requirement
-- curl
-```bash
-apt install -y curl
-```
-
 # Installation
 ```bash
-bash -c "$(curl -fsSL https://git.io/vuMdM)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/simonsmh/oh-my-termux/master/install.sh)"
 ```
